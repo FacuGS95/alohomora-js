@@ -1,0 +1,34 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  max-width: 120px;
+  margin-bottom: 1rem;
+}
+
+
+#selector-casa {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
