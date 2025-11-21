@@ -1,0 +1,73 @@
+@use "variables" as*;
+
+body {
+header {
+    background-image: url(../medios/background.jpg);
+    padding: 8px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 10px;
+    width: 100%;
+    text-emphasis-color: $amarillo;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 24px;
+
+
+}
+
+
+header ul {
+    list-style: none;
+    color: $negro;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+header a {
+    color: $amarillo;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px $rojo;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    margin: 0%; }
+
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+
+.logo {
+    width: 300px;
+    height: auto;
+    align-items: center;
+}
+
+ul li a:hover {
+    color: $amarillo2;
+    text-decoration: underline;
+}
+
+nav navegadorprincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+}

@@ -1,0 +1,38 @@
+@use "variables" as*;
+
+body {
+    .footerlista {
+        list-style: none;
+        grid-area: footerlista;
+        color: $amarillo;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+        background-color: $azuloscuro;
+        /* Fondo oscuro */
+    }
+
+    footer ul {
+        list-style: none;
+        color: $amarillo;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 0px;
+        font-weight: bold;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logofacebook {
+        width: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .logoinstagram {
+        width: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

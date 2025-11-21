@@ -1,0 +1,154 @@
+@use "variables" as*;
+
+.titulot,
+.subtitulot {
+    font-family: 'Magical Mystery Tour', cursive;
+    color: $amarillo;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.tiendaparrafo1,
+.tiendaparrafo2,
+.tiendaparrafo3 {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+    color: $blanco;
+    justify-content: center;
+}
+
+.imagen-tienda {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.felixfelicis {
+    display: block;
+    margin: 0 auto 1rem auto;
+    max-width: 100%;
+}
+
+
+
+#lista-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  color: $amarillo2
+}
+
+.card {
+  width: 300px;
+  border: 1px solid $amarillo2;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+  background-color: $violeta;
+  font-family: 'Segoe UI', sans-serif;
+  color: $amarillo2;
+}
+
+#saludo-casa {
+  font-size: 1.5rem;
+  color: $amarillo2;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#lista-productos .card-title {
+  font-weight: bold;
+  color: $violeta;
+}
+
+#carrito {
+  background-color: lighten($violeta, 10%);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+#lista-carrito {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#vaciar-carrito,
+#confirmar-compra {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#vaciar-carrito {
+  background-color: $amarillo2;
+  color: $negro;
+}
+
+#confirmar-compra {
+  background-color: darken($violeta, 10%);
+  color: white;
+}
+
+#mensaje-confirmacion {
+  font-size: 1.2rem;
+  color: $amarillo;
+  text-align: center;
+  margin-top: 1rem;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#ir-tienda {
+  color: $negro;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: $amarillo2;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.productosdisponibles {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: $blanco;
+    text-align: center;
+}
+
+#ir-tienda {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#ir-tienda.visible {
+  display: inline-block;
+  opacity: 1;
+}
+
+.imagenes-tienda {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  gap: 2rem;                 
+}
+
+.imagen-tienda,
+.felixfelicis {
+  width: 300px;   
+  height: auto;
+}

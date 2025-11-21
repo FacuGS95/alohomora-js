@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda mágica - Alohomora</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img class="logo" src="./medios/alohomora.png" alt="logotipo alohomora" title="logotipo alohomora">
+        </a>
+
+        <nav class="navegadorprincipal" role="navigation" aria-label="Navegación principal">
+            <ul>
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="./tienda.html">Tienda</a>
+                </li>
+
+
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="contenedor3">
+  <h1 class="titulot">Tienda</h1>
+  <h2 id="saludo-casa"></h2>
+  <p class="tiendaparrafo1">En ALOHOMORA STORE encontrarás una variedad de productos mágicos...</p>
+  <p class="tiendaparrafo2">Explora nuestras categorías de productos y encuentra lo que buscas...</p>
+  <p class="tiendaparrafo3">No dudes en contactarnos si tienes alguna pregunta...</p>
+
+  <div class="imagenes-tienda">
+  <img src="./medios/reliquias.jpg" class="imagen-tienda" alt="Imagen tienda">
+  <img src="./medios/felixfelicis.png" class="felixfelicis" alt="Felix Felicis">
+</div>
+</section>
+
+<section id="productos">
+  <h3>Productos mágicos</h3>
+  <div id="lista-productos" class="card-group d-flex flex-wrap justify-content-around"></div>
+</section>
+  <div id="resumen-productos"></div>
+
+
+  <section id="carrito">
+    <h3>Tu carrito</h3>
+    <div id="lista-carrito"></div>
+    <button id="vaciar-carrito">Vaciar carrito</button>
+    <button id="confirmar-compra">Confirmar compra</button>
+<p id="mensaje-confirmacion"></p>
+
+  </section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./tienda.js"></script>
+</body>
+</html>

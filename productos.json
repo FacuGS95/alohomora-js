@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "nombre": "Varita de Sauco",
+    "precio": 120,
+    "casa": "Gryffindor"
+  },
+  {
+    "id": 2,
+    "nombre": "Bufanda Escarlata",
+    "precio": 80,
+    "casa": "Gryffindor"
+  },
+  {
+    "id": 3,
+    "nombre": "Espada de Godric",
+    "precio": 200,
+    "casa": "Gryffindor"
+  },
+  {
+    "id": 4,
+    "nombre": "Mapa del Merodeador",
+    "precio": 150,
+    "casa": "Gryffindor"
+  },
+
+  {
+    "id": 5,
+    "nombre": "Poción Multijugos",
+    "precio": 100,
+    "casa": "Slytherin"
+  },
+  {
+    "id": 6,
+    "nombre": "Anillo de Serpiente",
+    "precio": 90,
+    "casa": "Slytherin"
+  },
+  {
+    "id": 7,
+    "nombre": "Medallón de Salazar",
+    "precio": 180,
+    "casa": "Slytherin"
+  },
+  {
+    "id": 8,
+    "nombre": "Capa de Invisibilidad Verde",
+    "precio": 140,
+    "casa": "Slytherin"
+  },
+
+  {
+    "id": 9,
+    "nombre": "Diadema de Ravenclaw",
+    "precio": 170,
+    "casa": "Ravenclaw"
+  },
+  {
+    "id": 10,
+    "nombre": "Libro de Encantamientos",
+    "precio": 110,
+    "casa": "Ravenclaw"
+  },
+  {
+    "id": 11,
+    "nombre": "Pluma de Sabiduría",
+    "precio": 95,
+    "casa": "Ravenclaw"
+  },
+  {
+    "id": 12,
+    "nombre": "Pergamino Antiguo",
+    "precio": 130,
+    "casa": "Ravenclaw"
+  },
+
+  {
+    "id": 13,
+    "nombre": "Taza de Tejón",
+    "precio": 70,
+    "casa": "Hufflepuff"
+  },
+  {
+    "id": 14,
+    "nombre": "Capa Amarilla",
+    "precio": 85,
+    "casa": "Hufflepuff"
+  },
+  {
+    "id": 15,
+    "nombre": "Medallón de Lealtad",
+    "precio": 120,
+    "casa": "Hufflepuff"
+  },
+  {
+    "id": 16,
+    "nombre": "Hierbas Curativas",
+    "precio": 60,
+    "casa": "Hufflepuff"
+  }
+]

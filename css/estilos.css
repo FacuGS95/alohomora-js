@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+.enviar, .limpiar {
+  border-radius: 20px;
+  background-color: #fdc500;
+  padding: 10px;
+  text-align: center;
+  color: #000000;
+  width: 100px;
+}
+
+.limpiar {
+  background-color: #770404;
+  color: #ffffff;
+}
+
+body .footerlista {
+  list-style: none;
+  grid-area: footerlista;
+  color: #fdc500;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: #030023;
+  /* Fondo oscuro */
+}
+body footer ul {
+  list-style: none;
+  color: #fdc500;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 0px;
+  font-weight: bold;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+}
+body .logofacebook {
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body .logoinstagram {
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+body header {
+  background-image: url(../medios/background.jpg);
+  padding: 8px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 10px;
+  width: 100%;
+  text-emphasis-color: #fdc500;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 24px;
+}
+body header ul {
+  list-style: none;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+body header a {
+  color: #fdc500;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px #770404;
+  justify-content: center;
+  align-items: center;
+  width: 0%;
+  margin: 0%;
+}
+body header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+body .logo {
+  width: 300px;
+  height: auto;
+  align-items: center;
+}
+body ul li a:hover {
+  color: #ffd300;
+  text-decoration: underline;
+}
+body nav navegadorprincipal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulot,
+.subtitulot {
+  font-family: "Magical Mystery Tour", cursive;
+  color: #fdc500;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.tiendaparrafo1,
+.tiendaparrafo2,
+.tiendaparrafo3 {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.imagen-tienda {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.felixfelicis {
+  display: block;
+  margin: 0 auto 1rem auto;
+  max-width: 100%;
+}
+
+#lista-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  color: #ffd300;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ffd300;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: #310052;
+  font-family: "Segoe UI", sans-serif;
+  color: #ffd300;
+}
+
+#saludo-casa {
+  font-size: 1.5rem;
+  color: #ffd300;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#lista-productos .card-title {
+  font-weight: bold;
+  color: #310052;
+}
+
+#carrito {
+  background-color: rgb(79.4756097561, 0, 133);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+#lista-carrito {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#vaciar-carrito,
+#confirmar-compra {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#vaciar-carrito {
+  background-color: #ffd300;
+  color: #000000;
+}
+
+#confirmar-compra {
+  background-color: rgb(18.5243902439, 0, 31);
+  color: white;
+}
+
+#mensaje-confirmacion {
+  font-size: 1.2rem;
+  color: #fdc500;
+  text-align: center;
+  margin-top: 1rem;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ir-tienda {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffd300;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.productosdisponibles {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+#ir-tienda {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#ir-tienda.visible {
+  display: inline-block;
+  opacity: 1;
+}
+
+.imagenes-tienda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.imagen-tienda,
+.felixfelicis {
+  width: 300px;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  #lista-productos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

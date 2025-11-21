@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+$amarillo: #fdc500;
+$amarillo2: #ffd300;
+$azuloscuro: #030023;
+$violeta: #310052;
+$rojo: #770404;
+$blanco: #ffffff;
+$negro: #000000;
+
+.enviar {
+    border-radius: 20px;
+    background-color: $amarillo;
+    padding: 10px;
+    text-align: center;
+    color: $negro;
+    width: 100px;
+
+}
+
+.limpiar {
+    @extend .enviar;
+    background-color: $rojo;
+    color: $blanco;
+}
