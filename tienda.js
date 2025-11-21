@@ -121,6 +121,7 @@ try {
     confirmButtonText: 'Aceptar'
   });
 
+
       mensajeConfirmacion.innerHTML = `
         ✅ ¡Compra confirmada! Total: <strong>$${total}</strong><br>
         Gracias por tu compra, ${localStorage.getItem("casaSeleccionada")} 🧙‍♀️
@@ -131,4 +132,30 @@ try {
       renderizarCarrito();
     });
   }
+  const vaciarCarritoBtn = document.getElementById("vaciar-carrito");
+
+if (vaciarCarritoBtn) {
+  vaciarCarritoBtn.addEventListener("click", () => {
+    if (carritoIds.length === 0) {
+      Swal.fire({
+        title: 'Carrito vacío 🧹',
+        text: 'No hay productos para eliminar',
+        icon: 'info',
+        confirmButtonText: 'Aceptar'
+      });
+      return;
+    }
+
+    carritoIds = [];
+    localStorage.removeItem("carritoIds");
+    renderizarCarrito();
+
+    Swal.fire({
+      title: 'Carrito vaciado 🧹',
+      text: 'Todos los productos fueron eliminados',
+      icon: 'success',
+      confirmButtonText: 'Aceptar'
+    });
+  });
+}
 });
